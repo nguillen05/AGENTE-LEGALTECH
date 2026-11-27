@@ -1,0 +1,47 @@
+CONTRATO DE PRESTACIÓN DE SERVICIOS DE SOFTWARE Y DESARROLLO TECNOLÓGICO
+
+COMPARECIENTES:
+De una parte, CLOUDTECH SOLUTIONS S.A.S., con RUC 1793849182001, debidamente representada por su Gerente General, Ing. Roberto Andrade (en adelante, el "PROVEEDOR").
+Y de otra parte, INVERSIONES & RETAIL DEL PACÍFICO CÍA. LTDA., con RUC 0992384756001, representada legalmente por la Dra. Mariana Gómez (en adelante, el "CLIENTE").
+
+Las partes acuerdan suscribir el presente Contrato de Servicios sujeto a las siguientes cláusulas:
+
+PRIMERA: OBJETO DEL CONTRATO
+El PROVEEDOR se obliga a brindar al CLIENTE el acceso a su plataforma en la nube (SaaS) de gestión logística, así como los servicios profesionales de integración con el ERP empresarial y mantenimiento correctivo/evolutivo durante el término del acuerdo.
+
+SEGUNDA: PLAZO DE VIGENCIA Y PRÓRROGA AUTOMÁTICA
+El presente contrato tendrá una vigencia inicial de doce (12) meses a partir de la fecha de suscripción. El contrato se prorrogará automáticamente por períodos sucesivos de un (1) año adicional cada uno, a menos que cualquiera de las partes comunique a la otra su decisión en contrario con al menos noventa (90) días de anticipación a la fecha de vencimiento respectivo.
+
+TERCERA: PRECIO, CONDICIONES DE PAGO Y FACTURACIÓN
+El CLIENTE pagará al PROVEEDOR una tarifa mensual fija recurrente de USD 4,500.00 (cuatro mil quinientos dólares de los Estados Unidos de América) más el Impuesto al Valor Agregado (IVA). Los pagos se realizarán dentro de los primeros cinco (5) días calendario de cada mes mediante transferencia bancaria.
+En caso de retraso en el pago, se devengará una penalidad por mora equivalente al interés máximo legal permitido por el Banco Central del Ecuador, más un recargo administrativo del 3% mensual sobre el saldo adeudado.
+
+CUARTA: OBLIGACIONES DEL PROVEEDOR
+a) Garantizar una disponibilidad del servicio del 99.5% (SLA).
+b) Brindar soporte técnico en horario laboral y resolución de incidencias críticas en un lapso no mayor a 4 horas.
+c) Mantener copias de seguridad diarias y encriptadas de toda la información corporativa del CLIENTE.
+
+QUINTA: OBLIGACIONES DEL CLIENTE
+a) Realizar el pago íntegro y puntual de los honorarios pactados.
+b) Designar un interlocutor técnico calificado para coordinar los accesos y pruebas de integración.
+c) No realizar ingeniería inversa, descompilar ni ceder las credenciales de acceso a terceros ajenos a la organización.
+
+SEXTA: PROPIEDAD INTELECTUAL
+El PROVEEDOR conserva todos los derechos de autor, patentes, marcas y propiedad intelectual sobre el software base, librerías, algoritmos y código fuente. El CLIENTE conserva la titularidad exclusiva sobre sus bases de datos y la información de sus operaciones comerciales.
+
+SÉPTIMA: CONFIDENCIALIDAD
+Ambas partes se comprometen a guardar estricta reserva y secreto profesional respecto a toda información técnica, financiera y comercial intercambiada. Esta obligación subsistirá durante tres (3) años posteriores a la terminación del presente contrato.
+
+OCTAVA: RESPONSABILIDAD E INDEMNIDAD
+La responsabilidad patrimonial total acumulada del PROVEEDOR derivada de cualquier reclamación relacionada con este contrato estará limitada a la suma efectivamente pagada por el CLIENTE en los últimos tres (3) meses de servicio. En ningún caso las partes responderán por lucro cesante, daños punitivos o pérdidas indirectas.
+
+NOVENA: TERMINACIÓN ANTICIPADA
+El presente contrato podrá darse por terminado por:
+1. Incumplimiento grave de las obligaciones contractuales que no fuere subsanado dentro de un término de quince (15) días posteriores a la notificación escrita.
+2. Quiebra, concurso de acreedores o liquidación de cualquiera de las partes.
+3. Mutuo acuerdo suscrito por escrito.
+
+DÉCIMA: LEY APLICABLE Y RESOLUCIÓN DE CONTROVERSIAS
+El presente acuerdo se rige por las leyes de la República del Ecuador. Cualquier controversia será sometida a mediación en el Centro de Arbitraje y Mediación de la Cámara de Comercio de Quito. En caso de no alcanzarse acuerdo, se resolverá mediante arbitraje en derecho conforme al reglamento de dicho Centro.
+
+Dado y firmado en la ciudad de Quito D.M., a los 15 días del mes de enero de 2026.

@@ -1,0 +1,214 @@
+/* ==========================================================================
+   AGENTE LEGALTECH CLM - ESTILOS PERSONALIZADOS
+   ========================================================================== */
+
+:root {
+  --navy-dark: #0f172a;
+  --navy-blue: #1e293b;
+  --navy-light: #334155;
+  --gold-primary: #c49746;
+  --gold-hover: #b08332;
+  --gold-subtle: rgba(196, 151, 70, 0.15);
+  --bg-slate: #f8fafc;
+  --border-light: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-muted: #64748b;
+  --risk-high: #ef4444;
+  --risk-medium: #f59e0b;
+  --risk-low: #10b981;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--text-primary);
+  background-color: var(--bg-slate);
+  min-height: 100vh;
+}
+
+/* Tipografía de utilidad */
+.fs-xs { font-size: 0.8125rem; }
+.fs-xxs { font-size: 0.72rem; }
+.tracking-tight { letter-spacing: -0.02em; }
+.cursor-pointer { cursor: pointer; }
+
+/* Colores corporativos */
+.bg-dark-navy { background-color: var(--navy-dark) !important; }
+.bg-navy { background-color: var(--navy-blue) !important; }
+.text-navy { color: var(--navy-dark) !important; }
+.text-gold { color: var(--gold-primary) !important; }
+.bg-gold { background-color: var(--gold-primary) !important; }
+.bg-gold-subtle { background-color: var(--gold-subtle) !important; }
+
+/* Botones con estilo Gold Legal */
+.btn-primary-gold {
+  background-color: var(--gold-primary);
+  border-color: var(--gold-primary);
+  color: #ffffff;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.btn-primary-gold:hover, .btn-primary-gold:focus {
+  background-color: var(--gold-hover);
+  border-color: var(--gold-hover);
+  color: #ffffff;
+}
+
+.brand-icon {
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(135deg, var(--gold-primary), #855f1f);
+  color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+/* Zona Drag & Drop */
+.drop-zone {
+  background-color: #f8fafc;
+  border: 2px dashed #cbd5e1;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.drop-zone:hover, .drop-zone.dragover {
+  border-color: var(--gold-primary);
+  background-color: #fffdfa;
+}
+
+/* Visor de texto del contrato */
+.contract-viewer {
+  resize: none;
+  font-size: 0.825rem;
+  line-height: 1.6;
+  background-color: #fdfdfd;
+  color: #334155;
+  box-shadow: none !important;
+}
+
+/* Pestañas personalizadas */
+.custom-pills .nav-link {
+  color: #475569;
+  font-weight: 500;
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.15s ease;
+}
+.custom-pills .nav-link:hover {
+  background-color: #f1f5f9;
+  color: var(--navy-dark);
+}
+.custom-pills .nav-link.active {
+  background-color: var(--navy-dark);
+  color: #ffffff;
+}
+
+/* Tarjetas de Ficha Técnica */
+.ficha-item {
+  background-color: #f8fafc;
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+  padding: 0.85rem;
+}
+.ficha-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 0.25rem;
+}
+.ficha-val {
+  font-weight: 600;
+  color: var(--navy-dark);
+  font-size: 0.95rem;
+}
+
+/* Chat Interactivo */
+.chat-messages {
+  background-color: #f8fafc;
+}
+.chat-bubble {
+  max-width: 85%;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+.agent-bubble {
+  background-color: #ffffff;
+  border: 1px solid var(--border-light);
+  color: var(--navy-dark);
+  border-bottom-left-radius: 2px;
+}
+.user-bubble {
+  background-color: var(--navy-dark);
+  color: #ffffff;
+  margin-left: auto;
+  border-bottom-right-radius: 2px;
+}
+.agent-avatar {
+  width: 28px;
+  height: 28px;
+  background-color: var(--gold-subtle);
+  color: var(--gold-primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+}
+
+.query-pill {
+  transition: all 0.15s ease;
+}
+.query-pill:hover {
+  background-color: #e2e8f0 !important;
+  border-color: var(--gold-primary) !important;
+}
+
+/* Alertas de Riesgo */
+.risk-card {
+  border-left: 4px solid #cbd5e1;
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 1rem;
+  border-top: 1px solid var(--border-light);
+  border-right: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+}
+.risk-card.risk-high {
+  border-left-color: var(--risk-high);
+  background-color: #fffaf9;
+}
+.risk-card.risk-medium {
+  border-left-color: var(--risk-medium);
+  background-color: #fffdf5;
+}
+.risk-card.risk-low {
+  border-left-color: var(--risk-low);
+  background-color: #f7fee7;
+}
+
+/* Semáforo badge */
+.badge-risk-high {
+  background-color: var(--risk-high) !important;
+  color: #ffffff;
+}
+.badge-risk-medium {
+  background-color: var(--risk-medium) !important;
+  color: #ffffff;
+}
+.badge-risk-low {
+  background-color: var(--risk-low) !important;
+  color: #ffffff;
+}
+
+.text-truncate-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
